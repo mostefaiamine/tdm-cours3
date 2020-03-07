@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_viewpager"
+        android:layout_width="match_parent"
+        android:orderInCategory="100"
+        android:title="View Pager"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_menu"
+        android:orderInCategory="100"
+        android:title="Menu"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_barre"
+        android:orderInCategory="100"
+        android:title="Actions"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_icons"
+        android:orderInCategory="100"
+        android:title="Actions Icones"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_drawer"
+        android:orderInCategory="100"
+        android:title="Navigation Drawer"
+        app:showAsAction="ifRoom" />
+</menu>
